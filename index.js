@@ -479,10 +479,9 @@ let bassist = new Bassist("Paul McCartney", "бас-гітара", "The Beatles"
  */
 let band = new Band("The Beatles", [bassist]);
 // Додаємо guitarist до band за допомогою addMember
-//guitarist.Band.addMember();
-//Band.addMember(guitarist);
-//addMember(guitarist);
-//guitarist.addMember();
+
+band.addMember(guitarist);
+
 /*
  * Створення vocalist екземпляра класу Vocalist
  * -------------------------------------
